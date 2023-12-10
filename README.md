@@ -1,2 +1,1 @@
-# lojinha-SuperMArio
-Joguinhos do super marios
+# Joginho_Supermario_javascript

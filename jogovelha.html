@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Jogo da Velha Dinâmico</title>
+<link rel="stylesheet" href="css/css.css">
+
+</head>
+<body>
+ <main>
+    <header>
+      <h3>Escolha o tamanho do tabuleiro</h3>
+      <div class="bnt_input">    <input type="number" class="input_3x3" id="matriz" value="3" max="10" min="3">
+
+        <button class="btn_clic" onclick="startGame()">jogar</button></div>
+
+        <img class="logo" src="imgs/Mario_Series_Logo.svg.png" alt="">
+    
+      
+    </header>
+    <div class="matriz">
+      <div id="game" class="grid"></div>
+    </div>
+  
+ </main>
+
+  <div class="solo"><img src="imgs/solo.png" alt=""></div>
+
+   <script src="js/jogovelha.js"> </script>
+</body>
+</html>
